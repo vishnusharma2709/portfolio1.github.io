@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <title>Vishnu's portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo ">
+        <!-- Vishnu -->
+        <nav>
+          <ul>
+            <a href="/"> <li>Home</li> </a>
+            <a href="./intro.html"> <li>My Intro</li> </a>
+            <a href="./skills.html"> <li>Skills</li> </a>
+            <a href="./contact.html"> <li>Contact me</li> </a>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="contactmain">
+        <div class="hamburger">
+          <img src="ham.png" alt="" class="ham"  width="23">
+          <img src="cross.png" alt="" class="cross" width="23">
+        </div>
+        <div class="contactform">
+          <h1>Contact me for work/General Enquiries</h1>
+          <form>
+            <div class="mb-3">
+              <label for="clientName" class="form-label">Name</label>
+              <input type="name" class="form-control" id="clientName" aria-describedby="emailHelp" placeholder="Enter your name">
+              
+            </div>
+            <div class="mb-3">
+              <label for="clientEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+              <div id="emailHelp" class="form-text">We'll never share your email & Phone with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="clientPhone" class="form-label">Phone</label>
+              <input type="Phone" class="form-control" id="clientPhone" placeholder="Enter your Phone">
+            </div>
+            <div class="mb-3">
+              <label for="clientName" class="form-label">Enquiry</label>
+              <input type="Enquiry" class="form-control" id="clientName" aria-describedby="emailHelp" >
+               </div>
+            <div class="mb-3" id= "form-check">
+              <input type="checkbox" class="form-check-input" id="isClient">
+              <label class="form-check-label" for="isClient">I want to you work on a project with me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>

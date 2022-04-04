@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaijaan+2:wght@500&family=PT+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaijaan+2:wght@500&family=PT+Sans:ital,wght@1,700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-family: cursive;
+    transition:transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 44px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 38px 0;
+}
+.sidebar nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 100vw;
+    height: 93.9vh;
+    padding: 20px;
+    /* background-color: red;    */
+}
+
+.contactmain{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.infocontainer{
+    /* background-color: aqua; */
+    height: 70vh;
+    margin: 80px auto;
+    width: 76vw;
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+
+.devpic img{
+    height: 70vh;
+    width: 70vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.hello{
+    font-size: 70px;
+    font-family: 'PT Sans', sans-serif;
+}
+.name{
+    font-size: 50px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    color: rgb(55, 173, 219);
+}
+.about{
+    padding-top: -3px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248, 109, 58);
+    font-weight: bold;
+}
+
+.moreabout{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.buttons button{
+    margin: 12px;
+    padding: 8px;
+    border-radius: 27px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.buttons button:hover{
+    color: black;
+    background-color: darkred;
+}
+
+
+
+.contactform{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 45px;
+    padding-top: 95px; 
+    font-weight: bold;
+    margin: 0 90px;
+    
+}
+.contactform h1{
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center; */
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.contactform form div input{
+   width: 30vw;
+   border-radius: 50px;
+   /* font-size: 18px; */
+   padding: 5px;
+   border: 2px solid black;
+   margin: 5px 0;
+
+
+}
+
+#emailHelp{
+    font-size: 13px;
+    margin: 0 5px;
+    padding: 2px 0;
+    color: darkred;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 25px;
+    margin: 2px 0;
+}
+
+.btn{
+    margin: 12px 130px;
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: cursive;
+    /* font-size: 1px; */
+}
+
+.btn:hover{
+    background-color: darkred;
+    color: black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 14px 45px;
+    font-weight: bold;
+}
+.skillContainer{
+    padding: 7px;
+  
+}
+
+.skill{
+    height: 5px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillItem{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 35px;
+}
+
+.hundred{
+    width: 300px;
+
+}
+
+.fifty{
+    width: 150px;
+    background-color: rgb(39, 18, 223);
+}
+
+.t75{
+    width: 225px;
+    background-color: violet;
+}
+
+.t40{
+    width: 100px;
+    background-color: yellow;
+}
+
+p{
+    font-family: cursive;
+    margin: 10px 20px;
+    color: rgb(41, 41, 41);
+    font-size:19px;
+}
+.introContainer img{
+    width: 200px;
+    height: 200px;
+    margin-left: 22px;
+}
+.introContainer {
+    display: flex;
+    /* background-color: red; */
+}
+
+.connect a img{
+    width: 45px;
+    height: 45px;
+    padding: -10px;
+    margin: 12px 45px;
+}
+
+.connect p{
+    margin-left: 45px;
+}
+
+.foot{
+    background-color: rgb(181, 184, 191);
+    color: white;
+    margin-top: 86px;
+    text-align: center;
+    /* width: 100vh; */
+}
+
+.sidebarGo{
+    transform: translate(-444px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cross{
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1055px) {
+    .devpic{
+        display: none;
+    }
+
+    /* .cross{
+        margin-left: 130px;
+    } */
+    .introContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .connect a img {
+        /* width: 45px;
+        height: 45px; */
+       padding: -10px;
+        margin: 8px 27px;
+    
+  }
+
+  .contactmain{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120vw;
+    height: 120vh;
+}
+
+h1{
+    margin: 14px 0;
+}
+
+.ham{
+    margin: 0px;
+}
+
+.contactform{
+    margin: 0 35px;
+}
+
+p{
+    margin: 10px 18px;
+}
+
+}
